@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/favicon.ico" rel="icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Array Cardio</title>
+</head>
+<body>
+    <Script>
+        // get your shorts this is an aray workout
+        // ## array cardio day 1
+
+        // Some data we can work with
+
+
+        const inventors = [
+            {first: 'Albert', last: 'Einstien', year: 1879, passed: 1955 },
+            {first: 'Isac', last: 'Newton', year: 1843, passed: 1727 },
+            {first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
+            {first: 'Marie', last: 'Curie', year: 1867, passed: 1934 },
+            {first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 },
+            {first: 'Nicolaus', last: 'Copernicus', year: 1473, passed: 1543 },
+            {first: 'Max', last: 'Planck', year: 1858, passed: 1947 },
+        ];
+
+
+        const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick', 'Beecher, Henry', 'Beethoven, Ludwig', 'Begin, Menachem', 'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert', 'Benn-Gurion, David'];
+
+
+        // Array.prototype.filter()
+        // 1. Filter the list of inventors for those who were borin in the 1500's
+
+            // const fifteen = investors.filter(function(inventor) {
+            //     if(inventor.year >= 1500 && inventor.year <= 15999) {
+            //         return true; // keep it
+            //     } else {
+            //         return false;
+            //     }
+            // });
+            // console.table(fifteen);
+
+            const fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.year < 1600))
+
+            console.table(fifteen);
+        
+        
+        // Array.prototype.map()
+        // 2. Give us an array of the inventory first and last names
+
+        // const fullNames = inventor.maps(function(inventor) {
+        //     if(inventor.first + inventor.last) {
+        //         console.log(fullNames);
+        //     }
+        // }) 
+
+        const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
+        console.log(fullNames);
+
+
+
+        // Array.prototype.sort()
+        // 3. Sort the investors by birthdate, oldest to youngest
+
+
+
+        // Array.prototype.reduce()
+        // 4. How many years did all inventors live?
+
+
+
+
+        // 5. Sort inventors be years lived
+
+
+        // 6. create a listy oF Boulevards in parts that contain 'de' anywhere in the name
+        // https://en.wikipedia.org/wiki/Category/Boulevards_in_Parts
+
+
+        // 7. Sort Excersize
+        // Sort the people alphabetically by last name
+
+
+
+        // 8. Reduce Excersize
+    </Script>
+</body>
