@@ -1,5 +1,5 @@
 
-// find array method
+// forEach array method
 const items = [
     { name: 'Bike',   price: 100 },
     { name: 'TV',   price: 200  },
@@ -9,11 +9,10 @@ const items = [
     { name: 'Computer',   price: 1000  },
     { name: 'Keyboard',   price: 25   }
 ];
-// function to find single item in an array
-const foundItem = items.find((item) => {
-    // true item selected will be returned 
-return item.name === 'Book'
+// function to shorten forLoop
+items.forEach((item) => {
+console.log(item.price)
 })
 
 
-console.log(foundItem)
+
