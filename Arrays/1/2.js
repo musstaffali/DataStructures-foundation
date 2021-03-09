@@ -20,11 +20,12 @@ let checkPerm = (s1, s2) => {
 
 
     let hash = {};
-
+// !== will return true if the operands are not equal and/or not of the same type.
     if (s1.length !== s2.length) {
         return false;
     }
 
+// Traverse the first string and fill up hash table
     for (let i = 0; i < s1.length; i ++) {
         let c = s1[i];
         if (hash[c]) {
