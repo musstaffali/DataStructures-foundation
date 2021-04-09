@@ -1,0 +1,7 @@
+**CTCI**
+
+This is what the concept of asymptotic runtime, 
+or big O time, means. 
+    
+We could describe the data transfer "algorithm" runtime as:
+    

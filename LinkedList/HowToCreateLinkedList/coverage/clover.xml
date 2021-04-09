@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1615666098467" clover="3.2.0">
-  <project timestamp="1615666098467" name="All files">
+<coverage generated="1615666951074" clover="3.2.0">
+  <project timestamp="1615666951075" name="All files">
     <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="11" coveredelements="11" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="Linkedlist.js" path="/Users/mustafamustafa/Desktop/DataStructures/LinkedList/HowToCreateLinkedList/Linkedlist.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>

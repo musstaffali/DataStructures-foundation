@@ -1,0 +1,10 @@
+Big "O" notation allows us to compare the worst case performance of our algorithms in a standardized way.
+
+
+**CTCI**
+Big O time is the lanaguage and metric we use to describe the efficieny of algorithms. 
+
+Not understanding it throughly can really hurt you in developing an algorithm. 
+
+Not only might you be judge harshly for not realy understanding big O, 
+but you will also struggle to judge when your algorithm is getting faster or slower.
