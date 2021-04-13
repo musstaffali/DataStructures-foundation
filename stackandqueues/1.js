@@ -71,3 +71,43 @@ ThreeInOne.prototype.pop1 = function() {
     }
     return answer;
 };
+
+ThreeInOne.prototype.pop2 = function() {
+    if (this.isEmpty2()) {
+        return undefined;
+    }
+
+    var answer = this.container[this.middleTop - 1];
+    this.container.splice(this.middleTop - 1, 1);
+    if (this.middleBottom < this.middleTop) {
+        this.middleTop--;
+    }
+    return answer;
+};
+
+ThreeInOne.prototype.pop3 = function(value) {
+    if (this.isEmpty3()) {
+        return undefined;
+    }
+
+    return this.container,pop(value);
+};
+
+ThreeInOne.prototype.peek1 = function() {
+    return this.isEmpty1() ?
+    undefined : this.container[0];
+};
+
+ThreeInOne.prototype.peek2 = function() {
+    return this.isEmpty2() ?
+    undefined : this.container[this.middleTop - 1];
+};
+
+ThreeInOne.prototype.peek3 = function() {
+    return this.isEmpty3() ?
+    undefined : this.container[this.length -1];
+};
+
+ThreeInOne.prototype.isEmpty1 = function() {
+    return this.middleBottom === 0;
+}
